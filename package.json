@@ -1,11 +1,14 @@
 {
-  "name": "npm-base",
+  "name": "@waiting/bankcard-reader-base",
   "author": "waiting",
   "version": "0.0.1",
   "description": "npm boilerplate",
+  "description": "读取IC/RF银行卡",
   "keywords": [
-    "种子项目",
-    "typescript"
+    "bankcard",
+    "rfic",
+    "银行卡",
+    "非接触"
   ],
   "engines": {
     "node": ">=8.10.0"
@@ -17,12 +20,12 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bugs": {
-    "url": "https://github.com/waitingsong/npm-base/issues"
+    "url": "https://github.com/waitingsong/node-bankcard-reader-base/issues"
   },
-  "homepage": "https://github.com/waitingsong/npm-base#readme",
+  "homepage": "https://github.com/waitingsong/node-bankcard-reader-base#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waitingsong/npm-base.git"
+    "url": "git+https://github.com/waitingsong/node-bankcard-reader-base.git"
   },
   "license": "MIT",
   "nyc": {
