@@ -1,3 +1,5 @@
+import { FModel as FM } from 'win32-def'
+
 
 export interface Config {
   /** base directory of this module */
@@ -19,6 +21,15 @@ export interface DeviceOpts {
   port: number
   /* search all available device , stop searching at first device found if false */
   searchAll: boolean
+}
+
+/** 设备配置参数 */
+export interface Device {
+  apib: FM.DllFuncsModel
+  deviceOpts: DeviceOpts
+  /** device in use */
+  inUse: boolean
+  openPort: number
 }
 
 /** 读卡类型 接触，非接触，auto轮询 */
