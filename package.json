@@ -1,7 +1,7 @@
 {
   "name": "@waiting/bankcard-reader-base",
   "author": "waiting",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "读取IC/RF银行卡基础包",
   "keywords": [
     "bankcard",
